@@ -1,0 +1,61 @@
+.van {
+    display:flex;
+    align-items: baseline;
+}
+
+div{  
+    height: 300px;
+}
+
+.back {
+    width: 800px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.middle {
+    width: 600px;
+}
+
+.front{
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.top{
+    height: 150px;
+    border: 1px solid black;
+    border-top-right-radius: 70%;
+}
+
+.bottom{
+    height:150px;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.wheels {
+    /* width: 800px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.wheel {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+@media (max-width: 1250px){
+    body {
+        background-color: antiquewhite;
+    }
+}
+
+.form {
+    margin-top: -150px;
+}
